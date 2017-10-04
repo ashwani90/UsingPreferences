@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Text_number_one_settings">
+        <CheckBoxPreference
+            android:defaultValue="Javacom.otf"
+            android:key="CHECKBOX_TEXT_1"
+            android:summary="This is the first font"
+            android:title="Javacom"></CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="waltograph42.otf"
+            android:key="CHECKBOX_TEXT_2"
+            android:summary="This is the second text"
+            android:title="waltograph42"></CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="AlexDirtie Brush Font.otf"
+            android:key="CHECKBOX_TEXT_3"
+            android:summary="This is the third text"
+            android:title="AlexDirtie Brush Font"></CheckBoxPreference>
+        <ListPreference
+            android:dialogTitle="Chose one of the sizes"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes_values"
+            android:key="FONT_SIZE_TEXT1"
+            android:title="Specify the font for first textbox"></ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
